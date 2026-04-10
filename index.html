@@ -3,77 +3,341 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Joaquim">
+    <meta name="Author" content="joaquim">
     <meta name = "keyworgs" content="lanchonete , comidas, refeiçoes"> 
     <title>LANCHONETE DO FRAGS</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script src="JS/menu.js" defer></script>
+    <script src="JS/menu.js"defer></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
             <i class="fa-solid fa-pizza-slice" id="nav-logo">COMIDAS</i>
             <ul class="nav-list">
-                <li class="nav-item"><a href="">Home</a> </li>
-                <li class="nav-item"><a href="">Cardapio</a></li>
-                <li class="nav-item"><a href="">Avaliação</a></li>
+                <li class="nav-item"><a href="#Home"></a>Home</li>
+                <li class="nav-item"><a href="#Cardapio"></a>Cardapio</li>
+                <li class="nav-item"><a href="#Avaliação"></a>Avaliação</li>
             </ul>
             <button class= "btn-default">
-                <b>Peça aqui !!!!</b>
+                Peça aqui !!!!
 
             </button> 
 
         </nav>
-        <button class="mobile-btn"> 
-            <i class= "fa-solid fa-bars"></i>
-        </button> 
+        <button class="mobile-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
         <div class="mobile-menu">
-            <ul class="mobile-nav-list">
-                    <li class="nav-item"><a href="#Home">Home</a> </li>
-                    <li class="nav-item"><a href="#Cardapio">Cardapio</a></li>
-                    <li class="nav-item"><a href="#Avliaçao">Avaliação</a></li>
+            <ul class="mobile-ban-list">
+                <li class="nav-item"><a href="#Home"></a>Home</li>
+                <li class="nav-item"><a href="#Cardapio"></a>Cardapio</li>
+                <li class="nav-item"><a href="#Avaliação"></a>Avaliação</li>
             </ul>
         </div>
     </header>
-
     <main class="content">
-        <section class="home" id="home">
-            <div class = "shape"></div>
-            <div class = "cta"></div>
-                <h1 class ="title">
-                    o Sabor vai te <b>surpreender</b>.
+        <section class="home" id= "home">
+            <div class= "shape"></div>
+            <div class= "cta">
+                <h1 class="title">
+                    O sabor vai até <span>você.</span>
                 </h1>
-                <p class="descricao">
-                Venha experimentar uma viagem gastronomica
+                <p class="descrição">
+                    Experimente já 
                 </p>
-                <div class ="cta-buttons">
+                <div class="cta-buttons">
                     <a href="#cardapio" class="btn-default"> Ver cardapio</a>
-                    <a href="" id="phone_button">
+                    <a href=""id="phone_button">
                         <button class="btn-default">
-
+                            <i class="fa-solid fa-phone"></i> 
                         </button>
-                        (67)9999-9999
+                        (67)998564785     
                     </a>
                 </div>
-                <div class="social-midia-buttons">
-                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <div class="social-media-buttons">
                     <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>                               
                 </div>
             </div>
             <div class="banner">
                 <img src="IMG/5.png" alt="">
             </div>
         </section>
+
     </main>
     <section class="cardapio" id="cardapio">
+            <h2 class= "section-title">CARDAPIO</h2>
+            <h3 class= "section-subtitle">Nossos pratos Especiais</h3>
+            <div class="area-cards">
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-heart">
+                        <i class= "fa-solid fa-heart"></i>
+                    </div>
+                    <img src="IMG/2.png" alt="" class="card-img">
+                    <h3 class="card-title" >Pizza frags</h3>
+                    <span class= "descrição">
+                        O frags desenrrolou essa maravilhosa pizza para você
+                    </span>
+                    <div class="card-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(5000+)</span>
+                    </div>
+                    <div class="card-price">
+                        <h4> R$61,00 </h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>               
     </section>
-    <section class="Cardapio" id ="Cardapio">
-    </section>
-
- </body>
+ 
+</body>
 </html>
