@@ -1,34 +1,31 @@
 .cardapio{
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
 }
-
 .area-cards{
     width: 100%;
     display: flex;
-    justify-content:center ;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
     margin-top: 50px;
 }
 .card{
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     border-bottom: 20px;
     width: 350px;
-    gap: 18px;
-    padding: 20px;
-    background-color: var(--color-neutra-2);
+    height: 500px;
+    gap: 5px;
+    padding:20px;
+    background-color:var(--color-neutra-2);
     position: relative;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0,0);
-    overflow: hidden;
+    box-shadow: 0px 0px 12px 4px rgba (0, 0, 0, 0);
     align-items: center;
-
 }
-
 .card-heart{
     position: absolute;
     background-color: var(--color-primary-6);
@@ -43,21 +40,19 @@
     top: -10px;
     border-radius: 0px 37.5px 0px 42.5px;
 }
-.card-imagem{
+.card-img{
     width: 250px;
     height: 250px;
-    object-fit: cover;
-    border: solid 3px var(--color-primary-6);
-    margin-top: 5px;
+    margin-top: 15px;
 }
 .card-title{
-    font-size: 1.5rem;
+    font-size: 1.5;
     color: var(--color-primary-6);
     padding: 5px;
     text-align: center;
 }
 .descricao{
-    color: slategray;
+    color: rgba(98, 95, 95);
     text-align: center;
 }
 .card-rate i{
@@ -67,4 +62,14 @@
     display: flex;
     align-items: center;
     gap: 20px;
+
+}
+@media screen and (max-width:600px) {
+    .card-title{
+        font-size: 1.2rem;
+    } 
+    .descricao{
+        font-size: 1.2rem;
+    }
+    
 }
